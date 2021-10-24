@@ -1,0 +1,55 @@
+*
+{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.bV{
+    display: none;
+}
+
+.projects-catalog .catalog-slider {
+    margin: 50px 0px;
+}
+.projects-catalog .catalog-cover {
+    position: relative;
+}
+.projects-catalog ul {
+    white-space: nowrap;
+    overflow-x: auto;
+
+}
+.drag .catalog-item {
+  pointer-events: none;
+}
+
+
+img{
+    width: 400px;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 1px 2px 7px grey;
+}
+
+::-webkit-scrollbar              { display:none; }
+
+
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 150px 0;
+    font-size: x-large;
+}
+
+button{
+    padding: 14px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #04AA6D;
+    color: white;
+    font-size: large;
+}
